@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-4 merges
+5 merges
 
 
 
@@ -14,6 +14,46 @@ Published tags:
 
 
 
+
+
+
+
+&nbsp;
+
+&nbsp;
+
+## [Untagged] - Jul 17, 2026 1:03:17 PM
+
+Commit [893a4160a6e73a0ef9ddd741256874a1f901d72c](https://github.com/StoneCypher/fsl-textmate/commit/893a4160a6e73a0ef9ddd741256874a1f901d72c)
+
+Author: `John Haugeland <stonecypher@gmail.com>`
+
+Merges [87506bc, b1f0646]
+
+  * Merge pull request #5 from StoneCypher/docs_26-07-17_readme-template-cleanup
+  * docs: strip template boilerplate + dead viz table from the README (0.1.1)
+
+
+
+
+&nbsp;
+
+&nbsp;
+
+## [Untagged] - Jul 17, 2026 10:52:29 AM
+
+Commit [b1f0646d1d797199dc6379bb200d324979d01f54](https://github.com/StoneCypher/fsl-textmate/commit/b1f0646d1d797199dc6379bb200d324979d01f54)
+
+Author: `John Haugeland <stonecypher@gmail.com>`
+
+  * docs: strip template boilerplate + dead viz table from the README (0.1.1)
+  * Remove the "How to use this template" / "Before invoking it" section and the
+bundle_*.png visualization table from base_README.md — leftovers from the
+react_ts_with_claude_gh_template scaffold that were shipping in this mirror's
+published README (the viz table pointed at PNGs that no longer exist, since
+viz_png is disabled for the mirror). The build chain regenerates README.md
+(and the site/docs) from base_README, so this cleans up the front page. Also
+drops the committed bundle_*.png and bumps to 0.1.1.
 
 
 

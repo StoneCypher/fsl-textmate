@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-4 merges; Changelogging the last 10 commits; Full changelog at [CHANGELOG.long.md](CHANGELOG.long.md)
+5 merges; Changelogging the last 10 commits; Full changelog at [CHANGELOG.long.md](CHANGELOG.long.md)
 
 
 
@@ -14,6 +14,46 @@ Published tags:
 
 
 
+
+
+
+
+&nbsp;
+
+&nbsp;
+
+## [Untagged] - Jul 17, 2026 1:03:17 PM
+
+Commit [893a4160a6e73a0ef9ddd741256874a1f901d72c](https://github.com/StoneCypher/fsl-textmate/commit/893a4160a6e73a0ef9ddd741256874a1f901d72c)
+
+Author: `John Haugeland <stonecypher@gmail.com>`
+
+Merges [87506bc, b1f0646]
+
+  * Merge pull request #5 from StoneCypher/docs_26-07-17_readme-template-cleanup
+  * docs: strip template boilerplate + dead viz table from the README (0.1.1)
+
+
+
+
+&nbsp;
+
+&nbsp;
+
+## [Untagged] - Jul 17, 2026 10:52:29 AM
+
+Commit [b1f0646d1d797199dc6379bb200d324979d01f54](https://github.com/StoneCypher/fsl-textmate/commit/b1f0646d1d797199dc6379bb200d324979d01f54)
+
+Author: `John Haugeland <stonecypher@gmail.com>`
+
+  * docs: strip template boilerplate + dead viz table from the README (0.1.1)
+  * Remove the "How to use this template" / "Before invoking it" section and the
+bundle_*.png visualization table from base_README.md — leftovers from the
+react_ts_with_claude_gh_template scaffold that were shipping in this mirror's
+published README (the viz table pointed at PNGs that no longer exist, since
+viz_png is disabled for the mirror). The build chain regenerates README.md
+(and the site/docs) from base_README, so this cleans up the front page. Also
+drops the committed bundle_*.png and bumps to 0.1.1.
 
 
 
@@ -175,42 +215,3 @@ Merges [5b5d2da, b5a0a60]
 
   * Merge pull request #1 from StoneCypher/feat_26-07-16_grammar-sync
   * ci: add jssm grammar mirror + pull-based sync
-
-
-
-
-&nbsp;
-
-&nbsp;
-
-## [Untagged] - Jul 17, 2026 6:21:37 AM
-
-Commit [b5a0a603b3b9f3507ae7e64f083cfc62c885f284](https://github.com/StoneCypher/fsl-textmate/commit/b5a0a603b3b9f3507ae7e64f083cfc62c885f284)
-
-Author: `John Haugeland <stonecypher@gmail.com>`
-
-  * ci: add jssm grammar mirror + pull-based sync
-  * Seed fsl.tmLanguage.json (the canonical FSL TextMate grammar, scope
-source.fsl) byte-for-byte from StoneCypher/jssm@main. This repo is a
-read-only mirror and the GitHub Linguist target; the source of truth
-stays StoneCypher/jssm.
-  * Add .github/workflows/sync-from-jssm.yml — a scheduled + on-demand
-workflow that refetches the grammar from jssm's main and commits any
-change via the repo's own GITHUB_TOKEN (no cross-repo secret). Do not
-hand-edit fsl.tmLanguage.json; it is overwritten by the sync.
-  * Refs: StoneCypher/fsl#1960
-
-
-
-
-&nbsp;
-
-&nbsp;
-
-## [Untagged] - Jul 16, 2026 9:28:17 PM
-
-Commit [5b5d2dadc9d6eb99ea0ce36545a13c77c1fac365](https://github.com/StoneCypher/fsl-textmate/commit/5b5d2dadc9d6eb99ea0ce36545a13c77c1fac365)
-
-Author: `John Haugeland <stonecypher@gmail.com>`
-
-  * cleanup

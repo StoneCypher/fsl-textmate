@@ -1,10 +1,10 @@
-# fsl-textmate v0.1.1
+# fsl-textmate v0.1.2
 
-> Version 0.1.1 was built on Friday, July 17, 2026 at GMT-07:00 `1784313426215` from hash `3858a42`.
+> Version 0.1.2 was built on Friday, July 17, 2026 at GMT-07:00 `1784328309833` from hash `893a416`.
 
 Canonical TextMate grammar for FSL (source.fsl) — a read-only mirror of jssm's dist/grammars/fsl.tmLanguage.json, kept as the GitHub Linguist target.
 
-<!-- Supported embeds: 1784313426215 Friday, July 17, 2026 at GMT-07:00 66.66 2 50 3858a42 {{stochbranch}} 66.66 {{stochfunc}} {{stochline}} 4 43 {{unitbranch}} {{unitfunc}} {{unitline}} 39 0.1.1 -->
+<!-- Supported embeds: 1784328309833 Friday, July 17, 2026 at GMT-07:00 66.66 2 50 893a416 {{stochbranch}} 66.66 {{stochfunc}} {{stochline}} 4 43 {{unitbranch}} {{unitfunc}} {{unitline}} 39 0.1.2 -->
 
 
 
