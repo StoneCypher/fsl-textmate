@@ -1,6 +1,6 @@
 {
   "name": "fsl-textmate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TextMate grammar for FSL, the Finite State Language",
   "keywords": [
     "fsl-textmate",
