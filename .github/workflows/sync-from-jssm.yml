@@ -1,0 +1,42 @@
+name: sync grammar from jssm
+
+# Pull-based mirror: this repo is a read-only mirror of jssm's canonical
+# dist/grammars/fsl.tmLanguage.json, kept here as the GitHub Linguist
+# submodule target. The source of truth is StoneCypher/jssm — never hand-edit
+# fsl.tmLanguage.json here. This workflow fetches the published grammar from
+# jssm's main branch and commits it if it changed, using the repo's built-in
+# GITHUB_TOKEN (no cross-repo secret required).
+
+on:
+  schedule:
+    - cron: '31 10 * * *'   # daily, a little after jssm's nightly perf sync
+  workflow_dispatch:          # on-demand button
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch canonical grammar from jssm
+        run: |
+          curl -fsSL \
+            https://raw.githubusercontent.com/StoneCypher/jssm/main/dist/grammars/fsl.tmLanguage.json \
+            -o fsl.tmLanguage.json
+
+      - name: Commit if changed
+        run: |
+          git add fsl.tmLanguage.json
+          # --cached so a brand-new (untracked) grammar is detected too, not
+          # just modifications to an already-tracked file.
+          if git diff --cached --quiet; then
+            echo "grammar unchanged; nothing to sync"
+            exit 0
+          fi
+          git config user.name  "jssm-grammar-sync[bot]"
+          git config user.email "stonecypher@gmail.com"
+          git commit -m "chore: sync fsl.tmLanguage.json from StoneCypher/jssm@main"
+          git push
