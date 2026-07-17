@@ -5,7 +5,7 @@
     "eslint":    true,
     "cloc":      true,
     "changelog": true,
-    "viz_png":   true,
+    "viz_png":   false,
     "terser":    true,
     "attw":      true,
     "site":      true
@@ -28,7 +28,7 @@
         "eslint":    true,
         "cloc":      true,
         "changelog": true,
-        "viz_png":   true,
+        "viz_png":   false,
         "terser":    true,
         "attw":      true,
         "site":      true
@@ -40,7 +40,7 @@
         "eslint":    true,
         "cloc":      true,
         "changelog": true,
-        "viz_png":   true,
+        "viz_png":   false,
         "terser":    true,
         "attw":      true,
         "site":      true
