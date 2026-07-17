@@ -63,37 +63,7 @@ Canonical TextMate grammar for FSL (source.fsl) — a read-only mirror of jssm's
 
 <img alt="star_chart" src="https://starchart.cc/StoneCypher/fsl-textmate.svg" />
 
-<table>
-  <tr>
-    <td><img alt="sunburst visualization" src="bundle_sunburst.png" /></td>
-    <td><img alt="treemap visualization" src="bundle_treemap.png" /></td>
-  </tr>
-  <tr>
-    <td><img alt="network visualization" src="bundle_network.png" /></td>
-    <td><img alt="flamegraph visualization" src="bundle_flamegraph.png" /></td>
-  </tr>
-</table>
 
-
-
-
-
-&nbsp;
-
-&nbsp;
-
-## How to use this template
-
-
-
-&nbsp;
-
-### Before invoking it
-
-1. [ ] Decide whether to
-    1. Update the deps in the template ***recommended***
-    1. Update the deps post-install
-    1. Let the deps be out of date
 
 
 
