@@ -15,7 +15,7 @@ const es_config = {
   output: {
     file      : 'build/rollup/index.mjs',
     format    : 'es',
-    name      : 'fsl-textmate',
+    name      : 'fslTextmate',
     sourcemap : true
   },
 
@@ -50,7 +50,7 @@ const cjs_config = {
   output: {
     file      : 'build/rollup/index.cjs',
     format    : 'commonjs',
-    name      : 'fsl-textmate',
+    name      : 'fslTextmate',
     sourcemap : true
   },
 
@@ -80,7 +80,7 @@ const iife_config = {
   output: {
     file      : 'build/rollup/index.iife.js',
     format    : 'iife',
-    name      : 'fsl-textmate',
+    name      : 'fslTextmate',
     sourcemap : true
   },
 
