@@ -1,10 +1,10 @@
-# fsl-textmate v0.20.4
+# fsl-textmate v0.1.1
 
-> Version 0.20.4 was built on Friday, June 5, 2026 at GMT-07:00 `1780725270359` from hash `34b4b4c`.
+> Version 0.1.1 was built on Friday, July 17, 2026 at GMT-07:00 `1784313426215` from hash `3858a42`.
 
-TODO Put the project description here, please.
+Canonical TextMate grammar for FSL (source.fsl) — a read-only mirror of jssm's dist/grammars/fsl.tmLanguage.json, kept as the GitHub Linguist target.
 
-<!-- Supported embeds: 1780725270359 Friday, June 5, 2026 at GMT-07:00 66.66 2 50 34b4b4c {{stochbranch}} 66.66 {{stochfunc}} {{stochline}} 4 43 {{unitbranch}} {{unitfunc}} {{unitline}} 39 0.20.4 -->
+<!-- Supported embeds: 1784313426215 Friday, July 17, 2026 at GMT-07:00 66.66 2 50 3858a42 {{stochbranch}} 66.66 {{stochfunc}} {{stochline}} 4 43 {{unitbranch}} {{unitfunc}} {{unitline}} 39 0.1.1 -->
 
 
 
@@ -62,65 +62,6 @@ TODO Put the project description here, please.
 * [Source](https://www.github.com/stonecypher/fsl-textmate/)
 
 <img alt="star_chart" src="https://starchart.cc/StoneCypher/fsl-textmate.svg" />
-
-<table>
-  <tr>
-    <td><img alt="sunburst visualization" src="bundle_sunburst.png" /></td>
-    <td><img alt="treemap visualization" src="bundle_treemap.png" /></td>
-  </tr>
-  <tr>
-    <td><img alt="network visualization" src="bundle_network.png" /></td>
-    <td><img alt="flamegraph visualization" src="bundle_flamegraph.png" /></td>
-  </tr>
-</table>
-
-
-
-
-
-&nbsp;
-
-&nbsp;
-
-## How to use this template
-
-
-
-&nbsp;
-
-### Before invoking it
-
-1. [ ] Decide whether to
-    1. Update the deps in the template ***recommended***
-    1. Update the deps post-install
-    1. Let the deps be out of date
-
-
-
-&nbsp;
-
-### After invoking it
-
-1. [ ] Reset package version
-1. [ ] Turn Github Pages on, and point it at `master`/`/docs`
-1. [ ] Set up the auth token `TODO_TOKEN_FOR_GH_CI_CD` after renaming it in ci.yml
-1. [ ] Change all the `fsl-textmate`s in this file's top block links
-1. [ ] Change all the `fsl-textmate`s in `package.json`
-1. [ ] Change the `fsl-textmate` in `verify_version_bump.js`
-1. [ ] Write or copy-paste the description in `package.json`
-1. [ ] Search for all remaining TODOs
-1. [ ] Update meta tags and TODOs in `src/html/index.html`
-1. [ ] Write a `base-README.md`
-1. [ ] Change all the `fsl-textmate`s in `rollup.config.js`
-1. [ ] Decide whether to
-    1. re-add a `bin` block to `package.json`, or
-    2. remove the `bin` config from `rollup.config.js`
-1. [ ] `npm install && npm run build`
-    1. Maybe update the deps?
-1. Handle the MAYBE-REMOVEs in the HTML HEAD
-    1. [ ] Change src/html/index.html 's <title>
-    1. [ ] Maybe replace src/html/favicon.png
-1. [ ] commit and vroom
 
 
 
