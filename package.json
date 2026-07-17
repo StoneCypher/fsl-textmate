@@ -1,18 +1,18 @@
 {
-  "name": "react_ts_with_claude_gh_template",
-  "version": "0.20.4",
-  "description": "react_ts_with_claude_gh_template",
+  "name": "fsl-textmate",
+  "version": "0.1.0",
+  "description": "TextMate grammar for FSL, the Finite State Language",
   "keywords": [
-    "react_ts_with_claude_gh_template",
+    "fsl-textmate",
     "stonecypher"
   ],
-  "homepage": "https://github.com/StoneCypher/react_ts_with_claude_gh_template#readme",
+  "homepage": "https://github.com/StoneCypher/fsl-textmate#readme",
   "bugs": {
-    "url": "https://github.com/StoneCypher/react_ts_with_claude_gh_template/issues"
+    "url": "https://github.com/StoneCypher/fsl-textmate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StoneCypher/react_ts_with_claude_gh_template.git"
+    "url": "git+https://github.com/StoneCypher/fsl-textmate.git"
   },
   "license": "MIT",
   "author": "John Haugeland <stonecypher@gmail.com>",
